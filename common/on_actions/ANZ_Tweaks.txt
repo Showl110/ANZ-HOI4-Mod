@@ -1,0 +1,32 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = no_tradebacks
+                        option = on
+                    }
+                }
+                every_country = {
+                    add_ideas = { 
+                        no_tradebacks 
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = peacetime_training
+                        option = on
+                    }
+                }
+                every_country = {
+                    add_ideas = {
+                        peacetime_training
+                    }
+                }
+            }
+        }
+    }
+}
