@@ -1,6 +1,4 @@
 version="1"
-tags={
-	"Military"
-}
+picture = Thumbnail.png
 name="Test ANZ"
 supported_version="1.14.10"

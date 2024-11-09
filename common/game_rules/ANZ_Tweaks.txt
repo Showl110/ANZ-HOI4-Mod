@@ -18,10 +18,12 @@ peacetime_training = {
 	group = "Hawk Tuah Training"
 	default = {
 		name = on
+		desc =  "buffs for peacetime training"
 		text = "On"
 	}
 	option = {
 		name = off
+		desc = "no buffs"
 		text = "Off"
 	}
 }
