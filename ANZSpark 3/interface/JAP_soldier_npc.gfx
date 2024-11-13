@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_jap_Bocchi"
+		texturefile = "gfx/leaders/JAP/portrait_Bocchi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_jap_Crutch"
+		texturefile = "gfx/leaders/JAP/portrait_Crutch.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_jap_Crutch2"
+		texturefile = "gfx/leaders/JAP/portrait_Crutch2.dds"
+	}
+}
