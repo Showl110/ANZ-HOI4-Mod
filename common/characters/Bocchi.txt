@@ -1,0 +1,53 @@
+characters={
+	JAP_Bocchi={
+		name=JAP_CHARACTER_Bocchi
+		portraits={
+			army={
+				large="GFX_portrait_jap_Bocchi"
+			}
+		}
+		corps_commander={
+			traits={ JAP_samurai_lineage organizer ranger urban_assault_specialist hill_fighter  infantry_leader}
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=9
+			logistics_skill=7
+			legacy_id=0
+		}
+	}
+	JAP_Crutch_General_1={
+		name=JAP_CHARACTER_Crutch
+		portraits={
+			army={
+				large="GFX_portrait_jap_Crutch"
+			}
+		}
+		corps_commander={
+			traits={ JAP_samurai_lineage organizer ranger hill_fighter infantry_leader}
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=7
+			logistics_skill=7
+			legacy_id=0
+}
+}
+	JAP_Crutch_General_2={
+		name=JAP_CHARACTER_Crutch2
+		portraits={
+			army={
+				large="GFX_portrait_jap_Crutch2"
+			}
+		}
+		corps_commander={
+			traits={ organizer commando infantry_leader naval_invader }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=6
+			logistics_skill=5
+			legacy_id=0
+}
+}
+}
