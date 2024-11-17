@@ -1,6 +1,36 @@
+-- Quality of Life
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 9999						   
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00     
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 15000000
 NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 0
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0
+
+-- Game Optimizations (thanks my favourite bulgarian femboy Deversus)
+
+NDefines_Graphics.NGraphics.CAMERA_ZOOM_SPEED_DISTANCE_MULT = 20
+NDefines_Graphics.NGraphics.MAPICON_GROUP_STRATEGIC_SIZE = 1000
+NDefines_Graphics.NGraphics.MAP_ICONS_STATE_HUGE = 100
+NDefines_Graphics.NGraphics.PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 200
+NDefines_Graphics.NGraphics.AIRBASE_ICON_DISTANCE_CUTOFF = 600
+NDefines_Graphics.NGraphics.NAVALBASE_ICON_DISTANCE_CUTOFF = 600
+NDefines_Graphics.NGraphics.RADAR_ICON_DISTANCE_CUTOFF = 150
+NDefines_Graphics.NGraphics.DRAW_MAP_OBJECTS_CUTOFF = 1.0 --Comment out if necessary
+NDefines_Graphics.NInterface.GRIDBOX_ELEMENTS_INTERPOLATION_SPEED = 0.2
+NDefines_Graphics.NGraphics.UNIT_ARROW_DISTANCE_CUTOFF = 500
+NDefines_Graphics.NGraphics.NAVAL_COMBAT_DISTANCE_CUTOFF = 1000
+NDefines_Graphics.NGraphics.ADJACENCY_RULE_DISTANCE_CUTOFF = 1300
+NDefines_Graphics.NGraphics.LAND_COMBAT_DISTANCE_CUTOFF = 800
+NDefines_Graphics.NGraphics.SUPPLY_ICON_DISTANCE_CUTOFF = 1500
+NDefines_Graphics.NGraphics.PROV_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 300
+NDefines_Graphics.NGraphics.STATE_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 600
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_REFRESH_FREQ = 0.2
+NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 5
+NDefines_Graphics.NGraphics.DRAW_REFRACTIONS_CUTOFF = 0 --Comment out if necessary
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH = 40
+NDefines_Graphics.NGraphics.WEATHER_DISTANCE_CUTOFF = 50
+NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_AREA_HUGE = 250
+NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE = 300
+NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE_STRATEGIC = 0
+NDefines_Graphics.NMapMode.DEPLOYMENT_NAVY_PRIORITY_VICTORY_POINTS = 5
+NDefines_Graphics.NGraphics.DAY_NIGHT_FEATHER = 0.024
