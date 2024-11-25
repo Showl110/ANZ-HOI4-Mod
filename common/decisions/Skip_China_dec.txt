@@ -12,7 +12,7 @@ JAP_Skip_China_cat = {
 
         fire_only_once = yes
         cost = 0
-        days_remove = 530  # Set timer for 530 days
+        days_remove = 600  # Set timer for 530 days
 
         complete_effect = {
             add_threat = 21
