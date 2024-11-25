@@ -9,9 +9,9 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 3.25
-				industrial_capacity_factory = -0.65
+				industrial_capacity_factory = -100
 				production_speed_industrial_complex_factor = -100
-				production_speed_arms_factory_factor = -0.6
+				production_speed_arms_factory_factor = -100
 				production_speed_dockyard_factor = -100
 			}
 		}
